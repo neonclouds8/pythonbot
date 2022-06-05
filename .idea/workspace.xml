@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cbe24dc-caf5-4170-8d4b-79d4e76ac2e3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/myvenv/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myvenv/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/myvenv/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python-getting-started" beforeDir="false" />
-    </list>
+    <list default="true" id="9cbe24dc-caf5-4170-8d4b-79d4e76ac2e3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
