@@ -1,1 +1,1 @@
-bot: main.py
+web: gunicorn gettingstarted.wsgi
