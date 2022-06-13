@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO)
 @dp.message_handler(commands="start")
 async def send_welcome(message: types.Message):
     keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    buttons = ["/Сайт", "/Телеграмм"]
+    buttons = ["Сайт", "Телеграмм"]
     keyboard.add(*buttons)
     await message.answer("?", reply_markup=keyboard)
 
@@ -17,7 +17,7 @@ async def send_welcome(message: types.Message):
 @dp.message_handler(commands="Сайт")
 async def cmd_inline_url(message: types.Message):
     button = [
-        types.InlineKeyboardButton(text="GitHub", url="https://github.com"),
+        types.InlineKeyboardButton(text="Avito", url="https://www.avito.ru/"),
     ]
     keyboard = types.InlineKeyboardMarkup(row_width=1)
     keyboard.add(*button)
